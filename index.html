@@ -121,6 +121,20 @@
             color: #333;
         }
         
+        .contact-link {
+            color: #1a2a6c;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            display: inline-block;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        
+        .contact-link:hover {
+            color: #b21f1f;
+            background-color: rgba(253, 187, 45, 0.2);
+        }
+        
         h2 {
             font-size: 1.8rem;
             margin-bottom: 20px;
@@ -233,28 +247,36 @@
                     <div class="contact-icon">
                         <i class="fas fa-phone"></i>
                     </div>
-                    <div class="contact-text">+1 514 291-8701</div>
+                    <div class="contact-text">
+                        <a href="tel:+15142918701" class="contact-link">+1 514 291-8701</a>
+                    </div>
                 </div>
                 
                 <div class="contact-item">
                     <div class="contact-icon">
                         <i class="fas fa-envelope"></i>
                     </div>
-                    <div class="contact-text">dgaudreault@capmatic.com</div>
+                    <div class="contact-text">
+                        <a href="mailto:dgaudreault@capmatic.com" class="contact-link">dgaudreault@capmatic.com</a>
+                    </div>
                 </div>
                 
                 <div class="contact-item">
                     <div class="contact-icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <div class="contact-text">12180 Albert-Hudon, Montreal, QC, Canada, H1G 3K7</div>
+                    <div class="contact-text">
+                        <a href="https://maps.google.com/?q=12180 Albert-Hudon, Montreal, QC, Canada, H1G 3K7" target="_blank" class="contact-link">12180 Albert-Hudon, Montreal, QC, Canada, H1G 3K7</a>
+                    </div>
                 </div>
                 
                 <div class="contact-item">
                     <div class="contact-icon">
                         <i class="fas fa-globe"></i>
                     </div>
-                    <div class="contact-text">www.capmatic.com</div>
+                    <div class="contact-text">
+                        <a href="https://www.capmatic.com" target="_blank" class="contact-link">www.capmatic.com</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -285,7 +307,7 @@
                 <a href="#" class="social-icon">
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://www.capmatic.com" class="social-icon">
+                <a href="https://www.capmatic.com" target="_blank" class="social-icon">
                     <i class="fas fa-globe"></i>
                 </a>
             </div>
