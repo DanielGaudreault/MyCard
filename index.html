@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capmatic - Operations Manager</title>
+    <title>Daniel Gaudreault - Operations Manager | Capmatic</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -31,16 +31,17 @@
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
             border-radius: 15px;
             overflow: hidden;
+            background: white;
         }
         
         .left-section {
             flex: 1;
             min-width: 300px;
-            background: #fff;
             padding: 40px;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            background: white;
         }
         
         .right-section {
@@ -66,8 +67,9 @@
         
         h1 {
             font-size: 2.2rem;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             color: #1a2a6c;
+            text-align: center;
         }
         
         .title {
@@ -75,19 +77,21 @@
             color: #b21f1f;
             margin-bottom: 20px;
             font-weight: 600;
+            text-align: center;
         }
         
         .divider {
             height: 4px;
             width: 60px;
             background: #fdbb2d;
-            margin: 15px 0;
+            margin: 15px auto;
         }
         
         .bio {
             line-height: 1.6;
             margin-bottom: 25px;
             color: #555;
+            text-align: center;
         }
         
         .contact-info {
@@ -110,6 +114,7 @@
             align-items: center;
             margin-right: 15px;
             color: white;
+            flex-shrink: 0;
         }
         
         .contact-text {
@@ -157,6 +162,7 @@
             color: white;
             font-size: 1.2rem;
             transition: all 0.3s ease;
+            text-decoration: none;
         }
         
         .social-icon:hover {
@@ -167,7 +173,7 @@
         .company-logo {
             font-size: 2.5rem;
             font-weight: 700;
-            color: #fdbb2d;
+            color: #1a2a6c;
             margin-bottom: 10px;
             text-align: center;
         }
@@ -176,7 +182,18 @@
             text-align: center;
             font-style: italic;
             margin-bottom: 30px;
-            opacity: 0.9;
+            color: #b21f1f;
+            font-weight: 500;
+        }
+        
+        .specialization {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            font-weight: 600;
+            color: #1a2a6c;
         }
         
         @media (max-width: 768px) {
@@ -194,39 +211,50 @@
     <div class="card-container">
         <div class="left-section">
             <div class="company-logo">CAPMATIC</div>
-            <p class="tagline">Streamlining Operations for Business Excellence</p>
+            <p class="tagline">Packaging Machinery & Robotic Solutions</p>
             
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Profile Photo" class="profile-image">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Daniel Gaudreault" class="profile-image">
             
-            <h1>Michael Reynolds</h1>
+            <h1>Daniel Gaudreault</h1>
             <div class="title">Operations Manager</div>
             
             <div class="divider"></div>
             
             <p class="bio">
-                With over 12 years of experience in operations management, I specialize in optimizing processes, improving efficiency, and driving operational excellence. My focus is on creating streamlined workflows that enhance productivity while maintaining the highest quality standards.
+                With extensive experience in operations management, I specialize in optimizing processes, improving efficiency, and driving operational excellence in packaging machinery and robotic solutions. My focus is on creating streamlined workflows that enhance productivity while maintaining the highest quality standards.
             </p>
+            
+            <div class="specialization">
+                Packaging Machinery & Robotic Solutions
+            </div>
             
             <div class="contact-info">
                 <div class="contact-item">
                     <div class="contact-icon">
                         <i class="fas fa-phone"></i>
                     </div>
-                    <div class="contact-text">+1 (555) 123-4567</div>
+                    <div class="contact-text">+1 514 291-8701</div>
                 </div>
                 
                 <div class="contact-item">
                     <div class="contact-icon">
                         <i class="fas fa-envelope"></i>
                     </div>
-                    <div class="contact-text">m.reynolds@capmatic.com</div>
+                    <div class="contact-text">dgaudreault@capmatic.com</div>
                 </div>
                 
                 <div class="contact-item">
                     <div class="contact-icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <div class="contact-text">123 Business Ave, Suite 500, New York, NY</div>
+                    <div class="contact-text">12180 Albert-Hudon, Montreal, QC, Canada, H1G 3K7</div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="contact-text">www.capmatic.com</div>
                 </div>
             </div>
         </div>
@@ -235,14 +263,14 @@
             <h2>Core Competencies</h2>
             
             <ul class="skills-list">
+                <li><i class="fas fa-check-circle"></i> Packaging Machinery Operations</li>
+                <li><i class="fas fa-check-circle"></i> Robotic Solutions Integration</li>
                 <li><i class="fas fa-check-circle"></i> Process Optimization & Improvement</li>
                 <li><i class="fas fa-check-circle"></i> Supply Chain Management</li>
                 <li><i class="fas fa-check-circle"></i> Team Leadership & Development</li>
                 <li><i class="fas fa-check-circle"></i> Budget Management & Cost Control</li>
                 <li><i class="fas fa-check-circle"></i> Quality Assurance Systems</li>
                 <li><i class="fas fa-check-circle"></i> Strategic Planning & Execution</li>
-                <li><i class="fas fa-check-circle"></i> Performance Metrics & KPIs</li>
-                <li><i class="fas fa-check-circle"></i> Project Management</li>
             </ul>
             
             <h2>Connect With Me</h2>
@@ -257,7 +285,7 @@
                 <a href="#" class="social-icon">
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="#" class="social-icon">
+                <a href="https://www.capmatic.com" class="social-icon">
                     <i class="fas fa-globe"></i>
                 </a>
             </div>
